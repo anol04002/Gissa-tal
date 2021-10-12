@@ -6,11 +6,6 @@ namespace Inlämningsuppgift
     {
         static void Main(string[] args)
         {
-            /*Console.Clear();
-            Random nmr = new Random();
-            Console.WriteLine("Gissa vilket nummer datorn tänker skriva, tal mellan 1-100");
-            int answer = int.Parse(Console.ReadLine());*/
-
             Random nmr = new Random();
             int tal = nmr.Next(1, 101);
             Console.WriteLine("Gissa vilket tal datorn väljer, tal mellan 1 och 100");
