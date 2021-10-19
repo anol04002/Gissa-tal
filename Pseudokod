@@ -1,0 +1,17 @@
+Pseudokod
+
+Låt datorn skapa ett slumptal mellan 1 och 100 som sedan ska gissas av spelaren.
+
+Skapa en gissningsräknare som lägger till +1 per gissning, den ska även skapa en variabel för att senare kunna skriva ut hur många försök det tagit att gissa rätt.
+Skapa en variabel för det slumpade talet.
+Gör även en variabel för svaret som spelaren skriver in.
+
+Mata ut “Gissa vilket tal datorn väljer, tal mellan 1 och 100”
+Låt nu spelaren mata in ett tal mellan 1 och 100. 
+Låt datorn jämföra gissningen med det slumpmässiga talet.
+
+Om svaret är för lågt så ska spelaren få försöka igen, det ska även matas ut att det är för lågt samt så ska datorn lägga till +1 med hjälp av gissningsräknaren.
+
+Är talet för högt så ska de få försöka igen samt att det ska matas ut att det är för högt. Den ska även lägga till +1 i gissningsräknaren.
+
+Om svaret är rätt så ska datorn skriva ut att det var rätt samt skriva ut hur många försök det tog att gissa rätt.
