@@ -9,7 +9,7 @@ namespace Inlämningsuppgift
             Random nmr = new Random();
             int tal = nmr.Next(1, 101);
             Console.WriteLine("Gissa vilket tal datorn väljer, tal mellan 1 och 100");
-            int försök = 1;
+            int försök = 0;
             while (true)
             {
                  int svar = int.Parse(Console.ReadLine());
@@ -25,8 +25,9 @@ namespace Inlämningsuppgift
                  }
 
                  else if (svar == tal){
-                     Console.WriteLine($"du gissade rätt efter {försök} försök");
                      försök++;
+                     Console.WriteLine($"du gissade rätt efter {försök} försök");
+                     break;
                  }
             }
         }
